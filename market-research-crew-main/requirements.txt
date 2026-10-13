@@ -1,0 +1,14 @@
+# Core CrewAI framework with all tools (includes crewai-tools, litellm, pydantic)
+crewai[tools]>=0.141.0,<1.0.0
+
+# Google Gemini support via CrewAI
+crewai[google-genai]
+
+# Streamlit UI
+streamlit
+
+# Environment variable management
+python-dotenv
+
+# Tavily search
+tavily-python
